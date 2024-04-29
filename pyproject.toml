@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "yacg"
+version = "6.5.1"
+description = "yet another code generation"
+authors = ["Eiko Thomas <eiko.thomas@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+colorama = "^0.4.6"
+pyyaml = "^6.0.1"
+mako = "^1.3.3"
+ptvsd = "^4.3.2"
+pudb = "^2024.1"
+semver = "^3.0.2"
+shell = "^1.0.1"
+json-spec = "^0.11.0"
+requests = "^2.31.0"
+
+
+[tool.poetry.group.dev.dependencies]
+faker = "^24.14.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
